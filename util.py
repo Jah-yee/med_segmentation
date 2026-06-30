@@ -115,7 +115,7 @@ def split(config):
 
         with open(pickle_filename, 'wb') as fp:
             pickle.dump(dict_dataset, fp, protocol=pickle.HIGHEST_PROTOCOL)
-            print('Sucessfully save split paths files.')
+            print('Successfully save split paths files.')
 
 
 def convert_tf_optimizer(config):
